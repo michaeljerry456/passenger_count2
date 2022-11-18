@@ -6,13 +6,21 @@ body {
     text-align: center;
 }
 
+.container {
+    background: lightyellow;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
 h1 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -25,7 +33,7 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #increment-btn {
